@@ -1,0 +1,42 @@
+- Tenho que utilizar toda variável declarada, senão o programa não compila.
+
+- Para declarar varíavel:  nome := valor
+  Ex:
+	x := 10
+	y := "Hello world"
+	z := true
+	fmt.Println(x, y, z)
+
+- GO possue tipagem automática, ou seja, atribuí um tipo a variável de acordo com seu valor
+	x:= 10 // x é definido como int automaticamente
+
+- DECLARAÇÃO != ATRIBUIÇÃO
+	x := 10 // declaração
+	x := 20 // ERRO, pois X já está declarado
+
+  correção:
+	x = 20 	       // ou
+ 	x, y := 20, 30 // funciona, pois há a declaração de Y
+
+
+- ' := ' só funciona em codeblock, para varíaveis package-level scope usa-se:
+	var y = "Variável package-level scope"
+
+
+- Para ignorar um valor retornado utilize o Blank Identifier
+  Ex:
+	nmrDeBytes, erros := fmt.Println("Opa rapaziada")
+
+	// se não vou utilizar 'nmrDeBytes'
+	-> _, erros := fmt.Println("Opa rapaziada")
+
+- Caso uma variável não seja inicializada, seu valor é o 0.
+	- integers: 0 / strings: "" / booleans: false etc
+	- pointers, functions, interfaces, slices, channels, maps: nil
+
+- Conversão para inteiros -> int(x)
+
+- Pode-se usar " var nome tipo = valor " para se declarar variáveis, mas o := encurta o processo
+  Ex: 
+	var x int = 30
+	var y string = "Oi"

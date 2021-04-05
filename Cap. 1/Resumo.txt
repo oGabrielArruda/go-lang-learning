@@ -1,0 +1,6 @@
+Link do curso:
+https://www.youtube.com/watch?v=WiGU_ZB-u0w&list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg&index=2
+
+- GO é multi-plataforma. Se compilar em Linux, posso usar em Windows.
+- Linguagem foi feita para alta performance de maneira mais fácil que C e C++.
+- ""Orientada a Objetos"".
